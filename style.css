@@ -1,0 +1,111 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+
+
+:root {
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: "Caveat", cursive;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 1em;
+}
+
+html, body {
+    min-height: 100%;
+    background-color: #D9BFA0;
+    
+}
+
+header {
+    background-color: #407348d0;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+header > h1 {
+    padding: 50px;
+    font-variant: small-caps;
+    font-family: var(--fonte1);
+   font-size: 3.7em
+    
+}
+
+header > p {
+    padding-bottom: 50px;
+    font-family: var(--fonte1);
+    font-size: 1.5vw;
+}
+
+header a, footer a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+header a:hover, footer a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding-top: 10%;
+    padding-bottom: 10%;
+    line-height: 2em;
+    padding-left: 30px;
+    font-family: var(--fonte2);
+    font-size: 3.3vw; 
+}
+
+section > p {
+    padding-bottom: 2em;
+}
+
+section.normal {
+    background-color: #D9BFA0;
+    color: rgb(0, 0, 0);
+}
+
+section.imagens {
+    background-color: rgb(29, 27, 27);
+    color: white;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.685);
+}
+
+section.imagens > p{
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.658);
+    text-shadow: 20px 20px 50px black;
+}
+
+section#img01 {
+    background-image: url(imagens/background001.jpg);
+    background-attachment: fixed;
+    background-position: right center;
+    background-size: cover;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 7px;
+    
+}
+
+section#img02 {
+    background-image: url(imagens/background002.jpg);
+    background-attachment: fixed; 
+    background-size: cover;
+    margin-right: 15px;
+    margin-left: 15px;
+    border-radius: 7px;
+    }
+    
+
+footer {
+    background-color: #BF925A;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-family:var(--fonte1) ;
+}
