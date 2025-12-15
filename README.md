@@ -1,4 +1,4 @@
-Projeto: Cordel Moderno (clonagem)
+# Projeto: Cordel Moderno (clonagem)
 
 Breve documentação do projeto criado para reproduzir a página "Cordel Moderno" do Professor Guanabara.
 
@@ -41,7 +41,3 @@ Próximos passos sugeridos
 - Baixar os assets (favicon e imagens usadas no original) para `imagens/`.
 - Ajustar estilos finos para ficar idêntico ao original (espessuras, espaçamentos, fontes alternativas).
 - Testar em diferentes tamanhos de tela e navegadores.
-
-Se quiser, eu faço os próximos passos automaticamente: baixar CSS/HTML/assets oficiais, ou ajustar o visual ponto a ponto — diga qual opção prefere.
-
-Arquivo gerado automaticamente pelo assistente.
